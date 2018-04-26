@@ -1,0 +1,87 @@
+Results of MANN WHITNEY WILCOXON test
+
+1) Context
+                       Group_1    Group_2
+                       _______    _______
+
+    Numerosity             34         34
+    Sum_of_Rank_W        1195       1151
+    Mean_Rank          35.147     33.853
+    Test_variable_U       556        600
+
+Sample size is large enough to use the normal distribution approximation
+
+    Mean      SD         Z       p_value_one_tail    p_value_two_tails
+    ____    ______    _______    ________________    _________________
+
+    578     80.292    0.26777    0.39444             0.78887
+
+stats =
+  struct with fields:
+         n: [34 34]
+         W: [1195 1151]
+        mr: [35.1471 33.8529]
+         U: [556 600]
+    method: 'Normal approximation'
+        mU: 578
+        sU: 80.2920
+         Z: 0.2678
+         p: [0.3944 0.7889]
+
+******************************************
+
+2) Modifier
+                       Group_1    Group_2
+                       _______    _______
+
+    Numerosity             34         34
+    Sum_of_Rank_W         874       1472
+    Mean_Rank          25.706     43.294
+    Test_variable_U       877        279
+
+Sample size is large enough to use the normal distribution approximation
+    Mean      SD        Z       p_value_one_tail    p_value_two_tails
+    ____    ______    ______    ________________    _________________
+
+    578     81.327    3.6704    0.00012111          0.00024222
+
+stats =
+  struct with fields:
+         n: [34 34]
+         W: [874 1472]
+        mr: [25.7059 43.2941]
+         U: [877 279]
+    method: 'Normal approximation'
+        mU: 578
+        sU: 81.3274
+         Z: 3.6704
+         p: [1.2111e-04 2.4222e-04]
+
+******************************************
+
+3) Context + Modifier
+                       Group_1    Group_2
+                       _______    _______
+
+    Numerosity             34         34
+    Sum_of_Rank_W         607       1739
+    Mean_Rank          17.853     51.147
+    Test_variable_U      1144         12
+
+Sample size is large enough to use the normal distribution approximation
+    Mean     SD        Z      p_value_one_tail    p_value_two_tails
+    ____    _____    _____    ________________    _________________
+
+    578     80.19    7.052    8.8185e-13          1.7637e-12
+
+stats =
+  struct with fields:
+         n: [34 34]
+         W: [607 1739]
+        mr: [17.8529 51.1471]
+         U: [1144 12]
+    method: 'Normal approximation'
+        mU: 578
+        sU: 80.1900
+         Z: 7.0520
+         p: [8.8185e-13 1.7637e-12]

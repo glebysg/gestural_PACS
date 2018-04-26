@@ -1,0 +1,41 @@
+Results of ttest
+
+1) Context
+
+H = 0
+P = 0.8649
+CI = -0.0282    0.0238
+
+STATS =
+  struct with fields:
+    tstat: -0.1715
+       df: 33
+       sd: 0.0746
+
+**************************************************
+
+2) Modifier
+
+H = 1
+P = 3.7837e-09
+CI = -0.1364   -0.0807
+
+STATS =
+  struct with fields:
+    tstat: -7.9328
+       df: 33
+       sd: 0.0798
+
+**************************************************
+
+3) Context + Modifier
+
+H = 1
+P = 1.9407e-15
+CI = -0.1855   -0.1384
+
+STATS =
+  struct with fields:
+    tstat: -14.0015
+       df: 33
+       sd: 0.0674
